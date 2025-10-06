@@ -1,0 +1,132 @@
+#VRML V2.0 utf8
+
+# Created on July 11, 2018 at 20:38:28
+
+#EXTERNPROTO RenderedFaceSet
+
+DEF Camera01 Viewpoint
+{
+    fieldOfView  0.645
+    orientation  -0.429 -0.880 0.205 -0.993
+    position  267.500 46.290 267.800
+    description  "Camera01"
+}
+
+DEF Light01 PointLight
+{
+    color  0.745 0.745 0.745
+    location  1122.000 867.700 999.300
+    radius  3012.000
+}
+
+DEF Light01-TIMER TimeSensor
+{
+    loop  TRUE
+}
+
+DEF Light02 PointLight
+{
+    color  0.745 0.745 0.745
+    location  -815.900 -409.700 -727.500
+    radius  3012.000
+}
+
+DEF Light02-TIMER TimeSensor
+{
+    loop  TRUE
+}
+
+NavigationInfo
+{
+    avatarSize  
+    [
+        0.250,
+        1.600,
+        0.750
+    ]
+    headlight  FALSE
+    type  
+    [
+        "WALK",
+        "ANY"
+    ]
+}
+
+DEF teifel Transform
+{
+    rotation  0.000 1.000 0.000 -1.571
+    translation  52.070 91.330 48.020
+    children  
+    [
+        Shape
+        {
+            appearance  Appearance
+            {
+                material  Material
+                {
+                    ambientIntensity  1.000
+                    diffuseColor  0.153 0.149 0.149
+                    shininess  0.411
+                    specularColor  0.560 0.560 0.560
+                }
+            }
+            geometry  DEF teifel-FACES RenderedFaceSet
+            {
+                solid  FALSE
+                pointer  0
+            }
+        }
+    ]
+}
+
+DEF plouze Transform
+{
+    rotation  -1.000 0.000 0.000 -1.571
+    translation  0.000 9.388 47.590
+    children  
+    [
+        Shape
+        {
+            appearance  Appearance
+            {
+                material  Material
+                {
+                    ambientIntensity  1.000
+                    diffuseColor  0.100 0.200 0.100
+                    shininess  0.135
+                }
+                texture  ImageTexture
+                {
+                    url  
+                    [
+                        "PELOUSE.GIF"
+                    ]
+                }
+            }
+        }
+    ]
+}
+
+DEF pilones Transform
+{
+    rotation  -1.000 0.000 0.000 -1.571
+    translation  0.000 8.260 47.230
+    children  
+    [
+        Shape
+        {
+            appearance  Appearance
+            {
+                material  Material
+                {
+                    ambientIntensity  1.000
+                    diffuseColor  0.100 0.100 0.100
+                }
+            }
+            geometry  DEF pilones-FACES RenderedFaceSet
+            {
+                pointer  1172960
+            }
+        }
+    ]
+}

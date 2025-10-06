@@ -1,0 +1,37 @@
+/* Cascading Style Sheets */ 
+/* #header */
+#header {
+	font: normal normal bold medium/normal monospace;
+	position: relative;
+	padding: 10.0px 10.0px 10.0px 10.0px;
+	display: inline-block;
+	background-color: #CCCCCC;
+}
+/* #description */
+#description {
+	display: inline-block;
+}
+/* #description p */
+#description p {
+	max-width: 40.0em;
+	text-indent: 1.0em;
+}
+#description p {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+#description img {
+    width: 45em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+body {
+    background-color: lightgray;
+}
+#my_element {
+    background-color: blue;
+    color: white;
+}
+#my_element:hover {
+    background-color: red;
+}

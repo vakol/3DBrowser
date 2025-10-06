@@ -1,0 +1,38 @@
+#VRML V2.0 utf8
+
+# Created on November 01, 2005 at 15:23:38
+
+DEF GeoSphere01 Transform
+{
+rotation 1 0 0 0.5
+children Transform
+{
+    rotation  0 1 0 -1.9
+    children  
+    [
+        Shape
+        {
+            appearance  Appearance
+            {
+                material  Material
+                {
+                    ambientIntensity  1.000
+                    diffuseColor  1.000 1.000 1.000
+                    shininess  0.145
+                }
+                texture  ImageTexture
+                {
+                    url  
+                    [
+                        "mapa.JPG"
+                    ]
+                }
+            }
+            geometry  DEF GeoSphere01-FACES RenderedFaceSet
+            {
+                pointer 0
+            }
+        }
+    ]
+}
+}

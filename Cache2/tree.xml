@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the parameters if present are: zoom, x-move, y-move, z-move -->
+<root>
+  <area name="intro" description="Úvod" type="folder"/>
+  <area name="test" description="Test" type="vrml" parameters="10, 0, 0, -100"/>
+  <area name="artefact" description="Z digitizeru" type="vrml" parameters="5, 20, 30"/>
+  <area name="index" description="Obsah" type="folder">
+    <area name="map" description="Mapa" type="vrml" parameters="1.5"/>
+    <area name="place" description="Umístění" type="folder">
+      <area name="excavation" description="Naleziště" type="vrml"/>
+      <area name="other_artefacts" description="Ostatní nálezy" type="folder">
+        <area name="artefact_model" description="Model" type="vrml"/>
+      </area>
+    </area>
+  </area>
+</root>

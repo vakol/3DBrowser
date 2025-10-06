@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the parameters if present are: zoom, x-move, y-move, z-move -->
+<root>
+  <area name="meta" description="Metadata" type="folder">
+    <area name="index" description="Obsah" type="folder"/>
+  </area>
+  <area name="svicen" description="Svícen" type="vrml" parameters="5, 20, 30">
+    <area name="naleziste" description="Naleziště" type="vrml"/>
+    <area name="mapa" description="Umístění" type="folder"/>
+  </area>
+  <area name="eiffelova_vez" description="Eiffel" type="vrml" parameters="0.5,-1,-80">
+    <area name="globus" description="Mapa" type="vrml" parameters="1.5"/>
+  </area>
+
+  <area name="hlava_sochy" description="Hlava" type="vrml">
+    <area name="popis" description="Hlava-popis" type="folder"/>
+  </area>
+</root>

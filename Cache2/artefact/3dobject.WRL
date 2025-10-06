@@ -1,0 +1,42 @@
+#VRML V2.0 utf8
+
+# Created on November 01, 2005 at 20:30:58
+
+DEF VSep01 Transform
+{
+    children  
+    [
+        DEF VSep02 Transform
+        {
+            children  
+            [
+                DEF VIFS01 Transform
+                {
+                    children  
+                    [
+                        Shape
+                        {
+                            appearance  Appearance
+                            {
+                                material  Material
+                                {
+                                    ambientIntensity  0.333
+                                    diffuseColor  0.192 0.475 0.545
+                                    shininess  0.070
+                                }
+                            }
+                            geometry  DEF VIFS01-FACES RenderedFaceSet
+                            {
+                                solid FALSE
+                                pointer 0
+                            }
+                        }
+                    ]
+                    rotation  -1.000 0.000 0.000 -1.588
+                    scale  0.500 0.500 0.500
+                    translation  6.599 472.200 -4.475
+                }
+            ]
+        }
+    ]
+}

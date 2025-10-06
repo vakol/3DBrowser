@@ -1,0 +1,38 @@
+/* Cascading Style Sheets */ 
+/* #header */
+#header {
+	background-color: #CCCCCC;
+	display: inline-block;
+	padding: 10.0px 10.0px 10.0px 10.0px;
+	position: relative;
+	font: normal normal bold medium/normal monospace;
+}
+/* #index */
+#index {
+	margin: 10.0px 10.0px 10.0px 10.0px;
+}
+/* #index ol */
+#index ol {
+	padding: 0.0px 0.0px 0.0px 30.0px;
+}
+/* #index li */
+#index li {
+	font: normal normal bold small/normal monospace;
+}
+body {
+    background-color: lightgray;
+}
+#my_element {
+    background-color: blue;
+    color: white;
+}
+#my_element:hover {
+    background-color: red;
+}
+#my_element {
+    background-color: blue;
+    color: white;
+}
+#my_element:hover {
+    background-color: red;
+}

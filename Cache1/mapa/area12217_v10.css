@@ -1,0 +1,50 @@
+/* Cascading Style Sheets */ 
+/* #header */
+#header {
+	font: normal normal bold medium/normal monospace;
+	position: relative;
+	padding: 10.0px 10.0px 10.0px 10.0px;
+	display: inline-block;
+	background-color: #CCCCCC;
+}
+/* #place */
+#place {
+	display: inline-block;
+}
+/* #place p */
+#place p {
+	text-align: justify;
+	text-indent: 1.0em;
+	max-width: 40.0em;
+}
+/* #map */
+#map {
+	display: block;
+	margin: 10.0px auto 0.0px auto;
+	position: relative;
+	padding: 10.0px 10.0px 10.0px 10.0px;
+	background-color: #CCCCCC;
+}
+/* #map_info */
+#map_info {
+	margin: 0.0px 0.0px 0.0px 150.0px;
+	display: inline-block;
+	font: normal normal normal small/normal monospace;
+}
+#place p {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+body {
+    background-color: lightgray;
+}
+#my_element {
+    background-color: blue;
+    color: white;
+}
+#my_element:hover {
+    background-color: red;
+}
+#image_container {
+    text-align: center;
+}

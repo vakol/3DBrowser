@@ -1,0 +1,25 @@
+/* Cascading Style Sheets */ 
+/* CSS for Element */
+#element75 {
+	background-color: #666666;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 10.0px 10.0px 10.0px 10.0px;
+	position: relative;
+}
+/* CSS for Element : hover */
+#element75:hover {
+	background-color: #009999;
+	box-shadow: 3.0px 3.0px 5.0px 5.0px #000000;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 10.0px 100.0px 10.0px 100.0px;
+	position: relative;
+	transition: 2.0s 0.0s all ease;
+	-webkit-transition: 2.0s 0.0s all ease;
+	-moz-transition: 2.0s 0.0s all ease;
+	-o-transition: 2.0s 0.0s all ease;
+}
+body {
+    background-color: lightgray;
+}

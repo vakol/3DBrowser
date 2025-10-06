@@ -1,0 +1,53 @@
+/* Cascading Style Sheets */ 
+/* #header */
+#header {
+	font: normal normal bold medium/normal monospace;
+	position: relative;
+	padding: 10.0px 10.0px 10.0px 10.0px;
+	display: inline-block;
+	background-color: #CCCCCC;
+}
+/* #table th */
+#table thead th {
+	padding: 1.0px 0.0px 1.0px 3.0px;
+	text-align: left;
+}
+/* #table td */
+#table tbody td {
+	font: normal normal bold small/normal monospace;
+	padding: 1.0px 0.0px 1.0px 3.0px;
+	text-align: left;
+}
+body {
+    background-color: lightgray;
+}
+#my_element {
+    background-color: blue;
+    color: white;
+}
+#my_element:hover {
+    background-color: red;
+}
+#table {
+    padding: 20px;
+}
+#table table {
+    border-collapse: collapse;
+}
+#item {
+    width: 8em;
+    border-right: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    font: normal normal bold medium/normal monospace;
+}
+#type {
+    width: 8em;
+    border-right: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    font: normal normal bold medium/normal monospace;
+}
+#data {
+    width: 40em;
+    border-bottom: solid 1px #000000;
+    font: normal normal bold medium/normal monospace;
+}
