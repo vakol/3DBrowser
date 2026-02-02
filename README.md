@@ -6,6 +6,7 @@ Jedná se o prototyp softwaru pro zobrazování virtuálních 3D artefaktů spol
 <br>
 <img src="./assets/3Dbrowser_2005.gif" alt="Desktopová aplikace 3D Browser"/>
 <br>
-<img src="./assets/3Dbrowser2.gif" alt="Novější verze desktopová aplikace 3D Browser2"/>
+<img src="./assets/3d_browser2.gif" alt="Novější verze desktopová aplikace 3D Browser2"/>
 
 <h3><a href="mailto:vaclav.kolarcik@seznam.cz">► Pro bližší informace kontaktujte e-mailem ◄</a></h3>
+
