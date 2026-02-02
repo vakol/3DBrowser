@@ -5,4 +5,5 @@ Jedná se o prototyp softwaru pro zobrazování virtuálních 3D artefaktů spol
 - Před spuštěním je nuto nainstalovat knihovny <a href="https://www.microsoft.com/en-us/download/details.aspx?id=8109">DirectX End-User Runtimes (June 2010)</a> a <a href="https://www.microsoft.com/en-us/download/details.aspx?id=26347">Microsoft Visual C++ 2005 Redistributable Package</a>
 <br>
 <img src="./assets/3Dbrowser_2005.gif" alt="Desktopová aplikace 3D Browser"/>
+<img src="./assets/3Dbrowser2.gif" alt="Novější verze desktopová aplikace 3D Browser2"/>
 <h3><a href="mailto:vaclav.kolarcik@seznam.cz">► Pro bližší informace kontaktujte e-mailem ◄</a></h3>
